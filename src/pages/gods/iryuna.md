@@ -2,7 +2,7 @@
 title: Iryuna
 factObject: {
     "name": "Iryuna",
-    "image": "/images/divinity/iryuna.jpg",
+    "image": "/public/images/divinity/iryuna.jpg",
     "alignment": "Lawful Good",
     "domains": ["Justice","Honor", "Metallic Dragons"]
 }

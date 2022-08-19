@@ -2,7 +2,7 @@
 title: Tekir
 factObject: {
     "name": "Tekir",
-    "image": "/images/divinity/tekir.jpg",
+    "image": "/public/images/divinity/tekir.jpg",
     "alignment": "Lawful Neutral",
     "domains": ["Night", "Loss", "Orphans"]
 }

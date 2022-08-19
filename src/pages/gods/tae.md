@@ -2,7 +2,7 @@
 title: Tae
 factObject: {
     "name": "Tae",
-    "image": "/images/divinity/tae.webp",
+    "image": "/public/images/divinity/tae.webp",
     "alignment": "Chaotic Good",
     "domains": ["Love","Fertility", "Marriage"]
 }

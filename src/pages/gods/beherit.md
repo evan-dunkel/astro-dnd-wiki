@@ -2,7 +2,7 @@
 title: Beherit
 factObject: {
     "name": "Beherit",
-    "image": "/images/divinity/beherit.jpeg",
+    "image": "/public/images/divinity/beherit.jpeg",
     "alignment": "Lawful Evil",
     "domains": ["Hell", "Slavery", "Contracts", "Promises"]
 }

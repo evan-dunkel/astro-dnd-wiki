@@ -2,7 +2,7 @@
 title: Hilaya
 factObject: {
     "name": "Hilaya",
-    "image": "/images/divinity/hilaya.jpg",
+    "image": "/public/images/divinity/hilaya.jpg",
     "alignment": "Chaotic Neutral",
     "domains": ["Dreams","Travel", "Art"]
 }

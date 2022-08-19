@@ -2,7 +2,7 @@
 title: Eias
 factObject: {
     "name": "Eias",
-    "image": "/images/divinity/eias.jpg",
+    "image": "/public/images/divinity/eias.jpg",
     "alignment": "Neutral Good",
     "domains": ["Celestia", "Sun", "Light", "Joy"]
 }

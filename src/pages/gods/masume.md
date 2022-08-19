@@ -2,7 +2,7 @@
 title: Masume
 factObject: {
     "name": "Masume",
-    "image": "/images/divinity/masume.jpg",
+    "image": "/public/images/divinity/masume.jpg",
     "alignment": "Chaotic Neutral",
     "domains": ["The Sea", "Tempest", "Strength"]
 }

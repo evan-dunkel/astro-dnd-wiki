@@ -2,7 +2,7 @@
 title: Jin
 factObject: {
     "name": "Jin",
-    "image": "/images/divinity/jin.webp",
+    "image": "/public/images/divinity/jin.webp",
     "alignment": "Neutral",
     "domains": ["Fate", "Life", "Death"]
 }

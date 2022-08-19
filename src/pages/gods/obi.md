@@ -2,7 +2,7 @@
 title: Obi
 factObject: {
     "name": "Obi",
-    "image": "/images/divinity/obi.jpg",
+    "image": "/public/images/divinity/obi.jpg",
     "alignment": "Chaotic Evil",
     "domains": ["Battle","Blood", "Fear"]
 }

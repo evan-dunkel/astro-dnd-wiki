@@ -2,7 +2,7 @@
 title: Introduction
 factObject: {
     "name": "Yeet",
-    "image": "/images/divinity/iryuna.jpg",
+    "image": "/public/images/divinity/iryuna.jpg",
     "alignment": "Lawful Good",
     "domains": [""]
 }

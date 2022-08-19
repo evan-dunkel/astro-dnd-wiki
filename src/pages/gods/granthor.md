@@ -2,7 +2,7 @@
 title: Granthor
 factObject: {
     "name": "Granthor",
-    "image": "/images/divinity/granthor.jpg",
+    "image": "/public/images/divinity/granthor.jpg",
     "alignment": "Lawful Good",
     "domains": ["Fire","Forge", "Craft", "Dwarves"]
 }
