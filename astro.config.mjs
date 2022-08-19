@@ -7,5 +7,6 @@ import preact from "@astrojs/preact";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), vue(), preact()],
-  site: 'https://evan-dunkel.github.io'
+  site: 'https://evan-dunkel.github.io',
+  base: '/astro-dnd-wiki'
 });
