@@ -1,12 +1,13 @@
 <template>
     <table>
         <tbody class="p-10">
-            <tr>
+            <tr class="table-row md:hidden">
                 <th colspan="2" class="text-2xl md:text-base">{{factObj.name}}</th>
             </tr>
             <tr>
                 <td colspan="2" class="p-1">
-                    <a :href="factObj.image" :data-pswp-height="imageHeight" :data-pswp-width="imageWidth" data-cropped="true" target="_blank" class="pswp-gallery"><img :src="factObj.image" class="rounded-sm"></a>
+                    <a :href="factObj.image" :data-pswp-height="imageDimensions" :data-pswp-width="imageDimensions" data-cropped="true" target="_blank" class="pswp-gallery"><img :src="factObj.image" class="rounded-sm"></a>
+                    <p>{{imageDimensions}}</p>
                 </td>
             </tr>
             <tr class="text-left">
@@ -32,8 +33,6 @@
         props: {
             currentPath: String,
             factObj: Object,
-        },
-        computed() {
         }
     }
 </script>
