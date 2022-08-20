@@ -2,7 +2,7 @@
 title: Kabiri
 factObject: {
     "name": "Kabiri",
-    "image": "/public/images/divinity/kabiri.jpg",
+    "image": "/images/divinity/kabiri.jpg",
     "alignment": "Lawful Good",
     "domains": ["Civilization", "Law", "Technology"]
 }

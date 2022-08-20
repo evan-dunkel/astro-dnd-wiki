@@ -2,7 +2,7 @@
 title: Sumeena
 factObject: {
     "name": "Sumeena",
-    "image": "/public/images/divinity/sumeena.jpg",
+    "image": "/images/divinity/sumeena.jpg",
     "alignment": "Chaotic Good",
     "domains": ["Nature","Beasts", "Druids", "Rangers", "Elves"]
 } 

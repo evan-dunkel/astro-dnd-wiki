@@ -2,7 +2,7 @@
 title: Xentan
 factObject: {
     "name": "Xentan",
-    "image": "/public/images/divinity/xentan.webp",
+    "image": "/images/divinity/xentan.webp",
     "alignment": "Chaotic Evil",
     "domains": ["Madness","Secrets", "Knowledge"]
 }

@@ -2,7 +2,7 @@
 title: Qiblesh
 factObject: {
     "name": "Qiblesh",
-    "image": "/public/images/divinity/qiblesh.jpg",
+    "image": "/images/divinity/qiblesh.jpg",
     "alignment": "Lawful Evil",
     "domains": ["Greed","Coin", "Wealth"]
 }

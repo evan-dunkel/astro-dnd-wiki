@@ -4,7 +4,7 @@ description: Lorem ipsum dolor sit amet - 2
 layout: ../../layouts/wiki_entry.astro
 factObject: {
     "name": "Akkada",
-    "image": "/public/images/divinity/akkada.jpg",
+    "image": "/images/divinity/akkada.jpg",
     "alignment": "Lawful Evil",
     "domains": ["Vengence","Chromatic Dragons"]
 }

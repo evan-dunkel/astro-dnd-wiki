@@ -2,7 +2,7 @@
 title: Yanagi
 factObject: {
     "name": "Yanagi",
-    "image": "/public/images/divinity/yanagi.png",
+    "image": "/images/divinity/yanagi.png",
     "alignment": "Neutral",
     "domains": ["Knowledge","Education", "Arcana"]
 }

@@ -2,7 +2,7 @@
 title: Ulukthai
 factObject: {
     "name": "Ulukthai",
-    "image": "/public/images/divinity/ulukthai.jpg",
+    "image": "/images/divinity/ulukthai.jpg",
     "alignment": "Chaotic Evil",
     "domains": ["Nightmares","The Abyss", "Anarchy"]
 }

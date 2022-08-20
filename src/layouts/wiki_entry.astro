@@ -4,22 +4,23 @@ import Factsheet from "../components/god_factsheet.vue"
 // import ThemeSwitcher from "../components/theme_switcher.vue"
 import ThemeSwitcher from "../components/theme_switcher.vue"
 import MenuToggle from "../components/menu_toggle.vue"
+// import SearchBox from "../components/searchbox.vue"
 const { content = {} } = Astro.props;
 const glob = await Astro.glob("../pages/**/*.md");
 const menuItems = [
 	{
 	headerTitle : 'Gods',
-	path : '/gods/',
+	url : '/gods/',
 	items : []
 	},
 	{
 	headerTitle : 'Test',
-	path : '/test/',
+	url : '/test/',
 	items : []
 	},
 	{
 	headerTitle : 'Test2',
-	path : '/test/',
+	url : '/test/',
 	items : []
 	}
 ]
@@ -27,12 +28,12 @@ const menuItems = [
 const decodedCurrentPath = decodeURIComponent(Astro.url.pathname)
 // iterate through menuItems and push menu item objects to menuItems.items
 menuItems.map( category => {
-	// console.log(category.path)
+	// console.log(category.url)
 	glob.map( f => {
 		// console.log(f.url);
-		// console.log(category.path);
-		if (f.url.includes(category.path)) {
-			console.log("matched path");
+		// console.log(category.url);
+		if (f.url.includes(category.url)) {
+			console.log("matched url");
 			category.items.push(
 				{
 					title: f.frontmatter.title,
@@ -74,10 +75,10 @@ menuItems.map( category => {
 			<nav class="sticky top-0 z-50 flex-none overflow-hidden backdrop-blur-sm lg:z-50 lg:border-b lg:border-neutral-900/10 dark:lg:border-neutral-100/10 bg-white/95 dark:bg-neutral-900/95">
 				<div class="mx-auto max-w-8xl">
 					<div class="py-4 mx-4 border-b border-neutral-900/10 dark:border-neutral-100/10 lg:px-8 lg:border-0 lg:mx-0">
-						<!-- desktop menu bar -->
 						<div class="relative flex items-center">
 							<span>Andir</span>
 							<div class="relative ml-auto">
+								<!-- <SearchBox client:load/> -->
 								<ThemeSwitcher client:load>
 									<span class="transition-opacity duration-700 ease-in bg-gray-200 rounded-full opacity-100 dark:bg-neutral-600">
 										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 25" fill="currentColor" class="inline-block fill-sky-500 dark:fill-neutral-400"><path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path></svg>

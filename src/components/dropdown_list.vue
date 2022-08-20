@@ -4,7 +4,7 @@
 		<!-- left-sidebar -->
 		<ul class="flex flex-col">
 			<template v-for="category in props.items">
-				<details class="pb-4 select-none " :open="props.currentPath.includes(category.path)">
+				<details class="pb-4 select-none " :open="props.currentPath.includes(category.url)">
 					<summary class="pb-2">
 						<span class="text-sm font-bold">{{ category.headerTitle}}
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 1 16 16" width="16" height="16" aria-hidden="true" class="inline dark:fill-neutral-100">

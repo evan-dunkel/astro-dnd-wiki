@@ -2,7 +2,7 @@
 title: Yitrik
 factObject: {
     "name": "Yitrik",
-    "image": "/public/images/divinity/yitrik.jpg",
+    "image": "/images/divinity/yitrik.jpg",
     "alignment": "Neutral Evil",
     "domains": ["Darkness","Shadows", "Undeath"]
 }

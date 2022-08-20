@@ -2,7 +2,7 @@
 title: Toyama
 factObject: {
     "name": "Toyama",
-    "image": "/public/images/divinity/toyama.jpg",
+    "image": "/images/divinity/toyama.jpg",
     "alignment": "Lawful Good",
     "domains": ["Peace", "Music", "Kitsune"]
 }

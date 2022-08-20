@@ -2,7 +2,7 @@
 title: Sayth
 factObject: {
     "name": "Sayth",
-    "image": "/public/images/divinity/sayth.png",
+    "image": "/images/divinity/sayth.png",
     "alignment": "Chaotic Neutral",
     "domains": ["Thieves","Assassins", "Poison", "Beggars"]
 }
