@@ -33,3 +33,8 @@
         }
     }
 </script>
+<style>
+button {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+</style>
